@@ -23,5 +23,5 @@
   "source": "https://github.com/jaschac/puppet-git.git",
   "summary": "Deploys, configure and maintain an instance of Git",
   "tags":["git", "vcs"],
-  "version": "0.0.3"
+  "version": "0.0.4"
 }
