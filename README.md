@@ -21,7 +21,7 @@ In order to install `lostinmalloc-git`, run the following command:
 ```bash
 $ sudo puppet module install lostinmalloc-git
 ```
-Once installed, managing users on a node through `lostinmalloc-git` is a simple as:
+Once installed, Git on a node through `lostinmalloc-git` is a simple as:
 ```bash
 node 'puppet.lostinmalloc.com' {
   class { 'git': }
@@ -51,7 +51,7 @@ All data must be provided through `Hiera`. Attributes written *in italic*, are o
   -  *`package_ensure`*: Defines whether the package is present or not. It must be assigned any of the following values: `absent`, `held`, `installed`, `latest`, `present`, or `purged`. It defaults to `installed`.
 
 ## Limitations
-`lostinmalloc-users` has been developed and tested on the following setup(s):
+`lostinmalloc-git` has been developed and tested on the following setup(s):
 
   - Operating Systems:
     - Debian 7 Wheezy (3.2.68-1+deb7u3 x86_64)
