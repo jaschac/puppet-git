@@ -1,0 +1,27 @@
+{
+  "author" : "Jascha Casadio",
+  "dependencies": [],
+  "description": "Deploys, configure and maintain an instance of Git",
+  "issues_url": "https://github.com/jaschac/puppet-git.git",
+  "license": "Apache-2.0",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "7",
+        "8" 
+      ]
+    }   
+  ],
+  "project_page": " https://forge.puppetlabs.com/lostinmalloc/git",
+  "requirements": [
+    {   
+      "name": "puppet",
+      "version_requirement": ">=4.0.0 <5.0.0"
+    }
+  ],
+  "source": "https://github.com/jaschac/puppet-git.git",
+  "summary": "Deploys, configure and maintain an instance of Git",
+  "tags":["git", "vcs"],
+  "version": "0.0.1"
+}
